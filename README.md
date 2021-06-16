@@ -1,14 +1,16 @@
 # XMRig-Termux
 XMRig for Termux on Android.
  
-```pkg install update && upgrade
+```
+pkg install update && upgrade
 apt install git 
 apt install wget 
 apt install proot
 ```
 This is for Ubuntu.
 
-```git clone https://github.com/Neo-Oli/termux-ubuntu 
+```
+git clone https://github.com/Neo-Oli/termux-ubuntu 
 cd termux-ubuntu 
 chmod +x ubuntu.sh 
 sh ubuntu.sh 
@@ -16,7 +18,8 @@ sh ubuntu.sh
 ```
 XMRig
 
-```apt update 
+```
+apt update 
 apt upgrade 
 apt install git 
 apt install wget 
