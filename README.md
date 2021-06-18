@@ -21,7 +21,8 @@ XMRig
 
 ```
 apt update 
-apt upgrade   
+apt upgrade
+apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev   
 git clone https://github.com/xmrig/xmrig.git 
 cd xmrig 
 mkdir build
