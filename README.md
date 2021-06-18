@@ -6,6 +6,7 @@ pkg install update && upgrade
 apt-get install git 
 apt install wget 
 apt install proot
+apt install git build-essential libmicrohttpd-dev libssl-dev cmake libhwloc-dev
 ```
 This is for Ubuntu.
 
@@ -20,8 +21,7 @@ XMRig
 
 ```
 apt update 
-apt upgrade  
-build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev 
+apt upgrade   
 git clone https://github.com/xmrig/xmrig.git 
 cd xmrig 
 mkdir build
