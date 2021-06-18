@@ -3,7 +3,7 @@ XMRig for Termux on Android.
  
 ```
 pkg install update && upgrade
-apt install git 
+apt-get install git 
 apt install wget 
 apt install proot
 ```
@@ -20,11 +20,7 @@ XMRig
 
 ```
 apt update 
-apt upgrade 
-apt install git 
-apt install wget 
-apt install proot 
-apt-get install git 
+apt upgrade  
 build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev 
 git clone https://github.com/xmrig/xmrig.git 
 cd xmrig 
