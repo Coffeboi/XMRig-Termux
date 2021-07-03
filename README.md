@@ -19,3 +19,6 @@ mkdir build
 cd build 
 cmake -DWITH_HWLOC=OFF .. 
 make
+```
+Enter this to start the miner.
+./xmrig -a cn-pico -o norpool.org:3333 -u SEKRaddressHere -p x -t numberOfCores
