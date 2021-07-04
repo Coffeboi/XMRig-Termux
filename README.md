@@ -27,7 +27,7 @@ cmake -DWITH_HWLOC=OFF ..
 
 ![image](https://user-images.githubusercontent.com/84473858/124390943-430a2e80-dcee-11eb-95f0-2d2645faae26.png)
 
-After running cmake you have to make it. NOTE: This step might take a while depending on what phone you are on!
+After running cmake you have to 'make' it. NOTE: This step might take a while depending on what phone you are on!
 ```
 make
 ```
