@@ -37,3 +37,4 @@ Enter this to start the miner.
 ```
 ./xmrig -a cn-pico -o norpool.org:3333 -u SEKRaddressHere -p x -t numberOfThreads
 ```
+![image](https://user-images.githubusercontent.com/84473858/124391157-8f09a300-dcef-11eb-8294-144837e7b641.png)
