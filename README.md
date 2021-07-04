@@ -31,7 +31,6 @@ make
 ```
 ![image](https://user-images.githubusercontent.com/84473858/124390954-5f0dd000-dcee-11eb-8d4b-e47add3f8230.png)
 
-```
 Enter this to start the miner.
 ```
 ./xmrig -a cn-pico -o norpool.org:3333 -u SEKRaddressHere -p x -t numberOfThreads
