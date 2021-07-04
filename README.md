@@ -1,24 +1,36 @@
 # XMRig-Termux
-XMRig for Termux on Android.
+This is the big boi compile-it-yourself version of XMRig for Termux on Android.
  
 ```
-pkg install update
 apt-get update
-apt-get install git 
-apt install wget 
+apt-get install git (You will be asked to enter `y` after sending this command.)
+pkg install cmake   (You will be asked to enter `y` after sending this command.)
 ```
-XMRig
+Now on to cloning XMRig repo.
 
 ```
 apt update 
-apt upgrade
-apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev   
+apt upgrade  
 git clone https://github.com/xmrig/xmrig.git 
-cd xmrig 
+cd xmrig
+```
+It should look something like this now.
+
+![image](https://user-images.githubusercontent.com/84473858/124390827-94fe8480-dced-11eb-9f5e-1d53497e8aa4.png)
+``` 
 mkdir build
-cd build 
+cd build
 cmake -DWITH_HWLOC=OFF .. 
+```
+
+![image](https://user-images.githubusercontent.com/84473858/124390943-430a2e80-dcee-11eb-95f0-2d2645faae26.png)
+
+After running cmake you have to make it. NOTE: This step might take a while depending on what phone you are on!
+```
 make
+```
+![image](https://user-images.githubusercontent.com/84473858/124390954-5f0dd000-dcee-11eb-8d4b-e47add3f8230.png)
+
 ```
 Enter this to start the miner.
 ```
