@@ -33,6 +33,11 @@ make
 ```
 ![image](https://user-images.githubusercontent.com/84473858/124390954-5f0dd000-dcee-11eb-8d4b-e47add3f8230.png)
 
+Now you should have everything set up. (You can enter `clear` to clear the screen for better overview.)
+Enter `ls` and you will get a list of everything within the folder you're in.
+
+![image](https://user-images.githubusercontent.com/84473858/124391996-a185db80-dcf3-11eb-8455-8c0360cffa20.png)
+
 Enter this to start the miner.
 ```
 ./xmrig -a cn-pico -o norpool.org:3333 -u SEKRaddressHere -p x -t numberOfThreads
