@@ -7,8 +7,8 @@ It is recommended to get the latest version of termux <a href="https://wiki.term
  
 ```
 apt-get update
-apt-get install git (You will be asked to enter `y` after sending this command.)
-pkg install cmake   (You will be asked to enter `y` after sending this command.)
+apt-get install git -y
+pkg install cmake -y
 ```
 Now on to cloning XMRig repo.
 
