@@ -9,8 +9,8 @@
  
 ```
 apt-get update
-apt-get install git (You will be asked to enter `y` after sending this command.)
-pkg install cmake   (You will be asked to enter `y` after sending this command.)
+apt-get install git -y
+pkg install cmake -y
 ```
 现在开始克隆 XMRig 存储库。
 
